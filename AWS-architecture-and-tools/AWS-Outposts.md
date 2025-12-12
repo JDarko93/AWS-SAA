@@ -12,4 +12,3 @@
 - These are entire equipment racks, 80 inches in height
 - Include Servers, network switches, network patch panel, power
 - Support many AWS services such as EC2, ECS, S3, EBS, RDS, EKS etc
-
