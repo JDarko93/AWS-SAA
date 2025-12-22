@@ -14,3 +14,15 @@
 ### VPCs and DNS
 - DNS name resolutions enabled by default. For example if you deployed VMs in a subnet within a VPC, they will be able to resolve internet names to IP address
 - You can specify custom DNS server entries, for this you need to create a new DHCP option set for your VPC
+
+### DHCP settings
+- DHCP Dynamic Host Configuration Protocol
+- This provides a standard for passing config info to hosts on a TCP/IP network
+- You can change the default AWS Domain name or a custom one if you have one you want to use
+- You can assign IP addresses to it 
+
+### DNS settings
+- DNS (Domain Name Service) is primarily used to resolve names to IP addresses for both IPV4 IPV6
+
+### Subnetting Public IP addressing
+- Elastic IPs keep the IP the same for subnets when they have public IP addresses
