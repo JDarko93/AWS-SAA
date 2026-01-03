@@ -9,3 +9,6 @@
 ### AWS Site-to-site VPN
 - This is linking on prem networks to AWS cloud
 - IPSec is a network security protocol which is used to secure network connections including VPNs
+
+### AWS Client VPN
+- Have an individual client device establish an encrypted tunnel with the AWS cloud
