@@ -48,3 +48,40 @@ www. (Host) this is the DNS record within that zone which resolves to a IPv4 add
 - Supports DNS health checks to check application reachability verifications
 - Endpoint connectivity using TCP, HTTP or HTTPS
 - Ensures traffic is not routed to unhealthy endpoints that dont respond to the connectivity test
+
+### Route 53 traffic policies 
+- Granular control of DNS name resolution and resources users get directed to 
+- Improve application availability
+- Can reduce network latency when connecting resources
+- Similar to network routing but that works at IP address level, this is controlling at name level
+
+### Weighted rule
+- Multiple hosted resources for the same app
+- DNS record weight value determines the amount of traffic received relative to other weight values
+
+### Failover rules
+- Active - passive failover
+- This means an active version of the app, but if not healthy then the passive version will be used
+- Second resource accepts traffic is first resource is unavailable
+
+### Geolocation rule\
+- Based on origin of where the client query has come from
+
+### Latency rule
+- This is used when you have the same service running in different AWS data centers
+- Provides the least network latency path DNS answer is whats sent to the client
+
+### Multivalue answer rule
+- Can have up to eight potention DNS query results
+- Response in a random selection based on an optional successful health check
+- Does not replace load balancing 
+
+### Geoproximity rule
+- Specifiy resource location down to the exact latitude and longiture / coordinates
+- DNS client query answers will route users to the resource nearest to them
+
+
+
+## DNS Firewalls
+- These looks at DNS domain name that is referenced for a connection and mitigates DNS exfiltration attacks
+- Malicious users can gain control of systems so when systems send queries, they can somtimes contain sensitive data
