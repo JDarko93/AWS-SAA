@@ -8,11 +8,11 @@
 
 ### Amazon QuickSight
 - A business intelligence (BI) solution that results in data visualisation and dashboards
-- Useful for forcasting tends and conducting what if scenarios
+- Useful for forcasting trends and conducting what if scenarios
 - Supports natural language queries against data in many different sources
 
 ### Amazon Kinesis
-- Designed for real time ingestion of steaming data
+- Designed for real time ingestion of streaming data
 - Managed service and supports auto scaling
 
 ### Amazon Glue
