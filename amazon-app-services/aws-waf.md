@@ -2,7 +2,7 @@
 
 - These are common vulnerabilities thhat exist that allow access to systems
 - CVEs have unique numbers asigned to them along withh the date it was found
-- This list is constantly updated when new threats are found 
+- This list is constantly updated when new threats are found
 
 
 ### Web Application Firewall (WAF)
@@ -13,7 +13,7 @@
 - Open Web App Security project (OWASP)
 
 
-### AWS WAF Placement 
+### AWS WAF Placement
 
 - Can be used to protect a custom app within an EC2 Instance
 - Associate it with an API Gateway which serves as middle wear between API requests and responses
@@ -27,7 +27,7 @@
 - This essentially is a Layer 7 firewall as it can look at the content of a given transmission or request
 - WAFs have options for rate limits and blocking bot traffic
 - Has fraud contorl, preventing login page attacks
-- Has security metrics monitoring using CloudWatch 
+- Has security metrics monitoring using CloudWatch
 
 
 ### WAF Rules
