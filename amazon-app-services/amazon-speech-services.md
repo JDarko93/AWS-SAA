@@ -20,8 +20,8 @@
 
 ### Amazon Polly
 
-- The name Polly comes from a parrot 
+- The name Polly comes from a parrot
 - Cloud based text-to-speech service
 - Provides broad spoken languages
-- Includes male and female voices 
+- Includes male and female voices
 - Also customisable with different voices if you want
