@@ -78,6 +78,6 @@
 
 ### Revoked certificates
 
-- Certificate revocation list (CRL) are entire lists of revoked certificate serial numbers. This can be downloaded from the CA and the list can be checked locally 
+- Certificate revocation list (CRL) are entire lists of revoked certificate serial numbers. This can be downloaded from the CA and the list can be checked locally
 
 - Online Certificate Status Protocol (OCSP). Each certificate validity is checked as it is being used. You dont need to download the entire list of revoked certificates
