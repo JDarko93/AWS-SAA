@@ -9,6 +9,6 @@
 
 - Determines who has access and how frequently the keys are changed
 
-- There isnt automated way to rotate keys for ASYMMETRIC keys or imported keys
+- There isnt an automated way to rotate keys for ASYMMETRIC keys or imported keys
 
 - SYMMETRIC keys have automated ways to rotate the keys

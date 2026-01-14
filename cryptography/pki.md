@@ -16,7 +16,7 @@
 ### PKI Certificate issuance
 
 - Certificates can be issued to individual users via email
-- You can issue PKI certificates for devices. It mighht contain the Fully Qualified Domain Name (FQDN) for that device or website
+- You can issue PKI certificates for devices. It might contain the Fully Qualified Domain Name (FQDN) for that device or website
 - You can issue PKIs to software entities. Software can partake in whatever is required cryptographically
 
 
@@ -38,7 +38,7 @@
 
 3 - Once issued it can be used for encryption, decryption, digital signing etc.
 
-4 - Once we dont want to use it anymore it can ve revoked. For example an employee has left the company and the PKI is no longer required or compromised. Otherwise it can be used until its expiry date.
+4 - Once we dont want to use it anymore it can be revoked. For example an employee has left the company and the PKI is no longer required or compromised. Otherwise it can be used until its expiry date.
 
 5 - Renewal / Expiry. You can renew certificates before the expire but once expired you can not renew them again
 
@@ -53,7 +53,7 @@
 
 
 
-### PKI Certificate contect 
+### PKI Certificate content 
 
 #### Subject names 
 
@@ -64,7 +64,8 @@
 
 #### Issuing CA, CA Signatures
 
-- Unique digital signatures from the CA used to exstablish the chain of trust
+- Unique digital signatures from the CA used to ex
+establish the chain of trust
 
 #### Public key (private key kept in OS secret secure store)
 
@@ -73,7 +74,6 @@
 #### Issue and expiry date
 
 #### Many other attributes
-
 
 
 ### Revoked certificates
