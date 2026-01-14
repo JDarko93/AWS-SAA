@@ -7,6 +7,13 @@
 
 ### Authentication and Authorisation
 
+#### Authentication
 - This is proof of identity 
 - Single factor (Something you know) is Username and password
-- MFA (Something yo)
+- MFA (Something you know and have) - is username password and smart card for example
+
+#### Authorisation
+- This kicks in after successful authentication
+- Controlled access to apps and AWS resources
+- Policies are collections of permissions
+- Ability to create custom policies and assign to users, groups and roles
